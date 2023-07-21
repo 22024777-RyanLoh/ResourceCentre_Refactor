@@ -2,8 +2,7 @@ import java.util.ArrayList;
 
 public class ResourceCentre {
 
-<<<<<<< HEAD
-=======
+
 
 	private static final int ITEM_TYPE_CHROMEBOOK = 2;
 	private static final int ITEM_TYPE_CAMCORDER = 1;
@@ -13,7 +12,6 @@ public class ResourceCentre {
 	private static final int OPTION_VIEW = 1;
 	private static final int OPTION_QUIT = 5;
 
->>>>>>> branch 'master' of https://github.com/22024777-RyanLoh/ResourceCentre_Refactor.git
 	public static void main(String[] args) {
 
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
@@ -38,18 +36,15 @@ public class ResourceCentre {
 
 			} else if (option == OPTION_ADD) {
 				// Add a new item
-<<<<<<< HEAD
 				ResourceCentre.setHeader("ADD");
 				ResourceCentre.setHeader("ITEM TYPES");
 				System.out.println("1. Camcorder");
 				System.out.println("2. Chromebook");
 
-=======
 				ResourceCentre.setHeader("ADD");			
 				itemTypeMenu();
+				//test
 				
-				
->>>>>>> branch 'master' of https://github.com/22024777-RyanLoh/ResourceCentre_Refactor.git
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
 				if (itemType == ITEM_TYPE_CAMCORDER) {
@@ -70,17 +65,14 @@ public class ResourceCentre {
 
 			} else if (option == OPTION_LOAN) {
 				// Loan item
-<<<<<<< HEAD
 				ResourceCentre.setHeader("LOAN");
 				ResourceCentre.setHeader("ITEM TYPES");
 				System.out.println("1. Camcorder");
 				System.out.println("2. Chromebook");
 
-=======
 				ResourceCentre.setHeader("LOAN");			
 				itemTypeMenu();
 				
->>>>>>> branch 'master' of https://github.com/22024777-RyanLoh/ResourceCentre_Refactor.git
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
 				if (itemType == ITEM_TYPE_CAMCORDER) {
@@ -95,17 +87,14 @@ public class ResourceCentre {
 
 			} else if (option == OPTION_RETURN) {
 				// Return item
-<<<<<<< HEAD
 				ResourceCentre.setHeader("RETURN");
 				ResourceCentre.setHeader("ITEM TYPES");
 				System.out.println("1. Camcorder");
 				System.out.println("2. Chromebook");
 
-=======
 				ResourceCentre.setHeader("RETURN");				
 				itemTypeMenu();
 				
->>>>>>> branch 'master' of https://github.com/22024777-RyanLoh/ResourceCentre_Refactor.git
 				int itemType = Helper.readInt("Enter option to select item type > ");
 				if (itemType == ITEM_TYPE_CAMCORDER) {
 					// Return camcorder
