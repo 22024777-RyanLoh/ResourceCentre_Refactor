@@ -43,7 +43,7 @@ public class ResourceCentre {
 
 				ResourceCentre.setHeader("ADD");			
 				itemTypeMenu();
-				//test
+				
 				
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
